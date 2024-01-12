@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kasir Kafe</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Kasir Kafe</h1>
+    <div>
+       <label for="item">Pilih Item:</label>
+       <select id="item">
+             <option value="coffe">Kopi</option>
+             <option value="tea">Teh</option>
+
+       <select>
+    </div>
+    <div>
+        <label for="quantity">Jumlah:</label>
+        <input type="number" id="quantity" value="1" min="1">
+    </div>
+    <button onclick="tambahKeKeranjang()">Tambah ke Keranjang</button>
+    <h2>Keranjang Belanja</h2>
+    <u1 id="keranjang"></u1>
+    <h3>Total: <span id="total">0</span></h3>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+           
+      
